@@ -333,8 +333,8 @@ main {
   background-color: var(--links-color);
 }
 
-.team-icons:hover,
-.team-icons:focus {
+.team-items:hover,
+.team-items:focus {
   background-color: var(--hover-color);
 }
 
