@@ -152,6 +152,7 @@ main {
 .hero {
   max-width: 1440px;
   height: 600px;
+  margin: 0 auto;
   padding-top: 188px;
   padding-bottom: 188px;
   text-align: center;
@@ -208,16 +209,12 @@ main {
   padding-left: 0;
 }
 
-.featurs-icons-block {
+.featurs-icons {
   width: 264px;
   height: 112px;
+  padding: 24px 100px;
   background: var(--background-color);
   border-radius: 4px;
-}
-
-.featurs-icons {
-  width: 64px;
-  height: 64px;
 }
 
 .featurs-direction {
@@ -367,22 +364,22 @@ main {
   padding: 0;
 }
 
-.customers-item {
+/* .customers-item {
   width: 168px;
   height: 88px;
   padding: 16px 32px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-}
+} */
 
 .customers-icons {
   fill: #8e8f99;
 }
 
-.customers-item:hover,
+/* .customers-item:hover,
 .customers-item:focus {
   border: 1px solid var(--hover-color);
-}
+} */
 
 .customers-icons:hover,
 .customers-icons:focus {
