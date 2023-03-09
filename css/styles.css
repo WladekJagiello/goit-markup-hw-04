@@ -380,13 +380,14 @@ main {
   fill: #8e8f99;
 }
 
-.customers-items:hover ~ .customers-icons,
-.customers-items:focus + .customers-icons {
-  border: 1px solid var(--hover-color);
+.customers-items:hover .customers-icons,
+.customers-items:focus .customers-icons {
   fill: var(--hover-color);
-  /* color: var(--hover-color);
+}
+.customers-items:hover,
+.customers-items:focus {
   border: 1px solid var(--hover-color);
-  fill: curentColor; */
+  border-radius: 4px;
 }
 
 /* footer */
