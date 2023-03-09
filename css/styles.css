@@ -325,21 +325,19 @@ main {
   padding: 0;
 }
 
-.team-items {
-  padding: 12px;
+.team-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 40px;
   height: 40px;
   border-radius: 50%;
   background-color: var(--links-color);
 }
 
-.team-items:hover,
-.team-items:focus {
+.team-icons:hover,
+.team-icons:focus {
   background-color: var(--hover-color);
-}
-
-.team-icons {
-  vertical-align: top;
 }
 
 /* customers */
@@ -369,26 +367,26 @@ main {
 }
 
 .customers-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 168px;
+  height: 88px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
 }
 
-.customers-link {
-  display: inline-block;
-  width: 166px;
-  height: 86px;
-}
-
 .customers-icons {
-  vertical-align: bottom;
   fill: #8e8f99;
 }
 
-.customers-icons:hover,
-.customers-icons:focus {
-  fill: var(--hover-color);
+.customers-items:hover ~ .customers-icons,
+.customers-items:focus + .customers-icons {
   border: 1px solid var(--hover-color);
-  border-radius: 4px;
+  fill: var(--hover-color);
+  /* color: var(--hover-color);
+  border: 1px solid var(--hover-color);
+  fill: curentColor; */
 }
 
 /* footer */
@@ -457,7 +455,10 @@ main {
   margin-bottom: 0;
 }
 
-.foot-items {
+.foot-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 40px;
   height: 40px;
   padding: 8px;
@@ -465,13 +466,9 @@ main {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.foot-items:hover,
-.foot-items:focus {
+.foot-icons:hover,
+.foot-icons:focus {
   background-color: #31d0aa;
-}
-
-.foot-icons {
-  vertical-align: bottom;
 }
 
 /* Portfolio */
